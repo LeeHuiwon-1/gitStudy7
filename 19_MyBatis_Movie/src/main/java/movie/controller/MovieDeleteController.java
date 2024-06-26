@@ -9,6 +9,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import movie.model.MovieDao;
 
+
+		//kim 팀원 추가 
+
 @Controller
 public class MovieDeleteController {
 
@@ -23,7 +26,7 @@ public class MovieDeleteController {
 			@RequestParam("num") int num,
 			@RequestParam("pageNumber") int pageNumber,
 			@RequestParam("whatColumn") String whatColumn,
-//			@RequestParam String whatColumn,	// 굳이 value를 안써도 같은 이름으로 저절로 찾아줌.
+//			@RequestParam String whatColumn,	// 援녹씠 value瑜� �븞�뜥�룄 媛숈� �씠由꾩쑝濡� ���젅濡� 李얠븘以�.
 			@RequestParam("keyword") String keyword		
 			) {
 		System.out.println("whatColumn : " + whatColumn);
@@ -43,8 +46,8 @@ public class MovieDeleteController {
 		 return mav;
 		 	
 		gotoPage = "redirect:/list.mv"
-		흠,, 
-		아마도?
+		�씈,, 
+		�븘留덈룄?
 			
 		return "redirect:/list.mv?pageNumber=pageNumber"
 */
